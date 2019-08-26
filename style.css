@@ -37,7 +37,7 @@ body {
     position: absolute;
     margin: 0px auto 0px auto;
     top: 40%;
-    left: -600px;
+    left: 30%;
     width: 600px;
     background-color: rgba(87,96,111, 0.5);
     color: #c8d6e5;
@@ -47,8 +47,7 @@ body {
 
 .slide.current .content{
     opacity: 1px;
-    transition: all 0.7ss ease-in-out 0.3s;
-    transform: translateX(1000px)
+    transition: all 0.7ss ease-in-out 0.9s;
 }
 
 .slide .content h1{
@@ -91,4 +90,102 @@ svg {
 svg:hover{
     cursor: pointer;
     fill: #576574;
+}
+
+@media(max-width: 1280px){
+    .slide .content{
+        position: absolute;
+        margin: 0px auto 0px auto;
+        top: 40%;
+        left: 25%;
+        width: 600px;
+        background-color: rgba(87,96,111, 0.5);
+        color: #c8d6e5;
+        padding: 35px;
+        opacity: 0px;
+    }
+}
+
+@media(max-width: 1000px){
+    .slide .content{
+        position: absolute;
+        margin: 0px auto 0px auto;
+        top: 40%;
+        left: 20%;
+        width: 600px;
+        background-color: rgba(87,96,111, 0.5);
+        color: #c8d6e5;
+        padding: 35px;
+        opacity: 0px;
+    }
+}
+
+@media(max-width: 900px){
+    .slide .content{
+        position: absolute;
+        margin: 0px auto 0px auto;
+        top: 40%;
+        left: 15%;
+        width: 600px;
+        background-color: rgba(87,96,111, 0.5);
+        color: #c8d6e5;
+        padding: 35px;
+        opacity: 0px;
+    }
+}
+
+@media(max-width: 800px){
+    .slide .content{
+        position: absolute;
+        margin: 0px auto 0px auto;
+        top: 40%;
+        left: 15%;
+        width: 500px;
+        background-color: rgba(87,96,111, 0.5);
+        color: #c8d6e5;
+        padding: 35px;
+        opacity: 0px;
+    }
+}
+
+@media(max-width: 700px){
+    .slide .content{
+        position: absolute;
+        margin: 0px auto 0px auto;
+        top: 40%;
+        left: 20%;
+        width: 400px;
+        background-color: rgba(87,96,111, 0.5);
+        color: #c8d6e5;
+        padding: 35px;
+        opacity: 0px;
+    }
+}
+
+@media(max-width: 600px){
+    .slide .content{
+        position: absolute;
+        margin: 0px auto 0px auto;
+        top: 40%;
+        left: 25%;
+        width: 300px;
+        background-color: rgba(87,96,111, 0.5);
+        color: #c8d6e5;
+        padding: 35px;
+        opacity: 0px;
+    }
+}
+
+@media(max-width: 550px){
+    .slide .content{
+        position: absolute;
+        margin: 0px auto 0px auto;
+        top: 40%;
+        left: 20%;
+        width: 300px;
+        background-color: rgba(87,96,111, 0.5);
+        color: #c8d6e5;
+        padding: 35px;
+        opacity: 0px;
+    }
 }
